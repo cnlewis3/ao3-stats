@@ -8,5 +8,6 @@
                  [org.clojure/java.jdbc "0.3.5"]
                  [org.xerial/sqlite-jdbc "3.7.2"]
                  [org.clojure/tools.logging "0.4.1"]
-                 [org.clojure/core.async "0.4.500"]]
+                 [org.clojure/core.async "0.4.500"]
+                 [com.github.seancorfield/next.jdbc "1.2.737"]]
   :repl-options {:init-ns ao3-stats.core})

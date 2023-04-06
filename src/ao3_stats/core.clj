@@ -20,8 +20,6 @@
         (recur)))
     (map #(scrape-week % 1 web-chan) (range 43 560))))
 
-
-;1-43 finished
-;Need to 560 (10 years)
-
-
+(defn read-db []
+  (let [db (connect-db)]
+    (add-ratio db (get-ids-from-fandom db "'Haikyuu!!'"))))
